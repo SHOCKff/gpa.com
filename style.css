@@ -1,0 +1,25 @@
+body{
+  background-color: aqua;
+}    
+.rvr{
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+  font-size: large;
+  text-align: center;
+  margin: auto;
+  display: grid;
+}
+#pp{
+  margin: auto;
+  display: grid;
+}
+#output{
+  background-color: beige;
+}
+h7{
+  background-color: gold;
+  text-decoration-color: black;
+  align-self: auto;
+  text-decoration-line: underline;
+}
