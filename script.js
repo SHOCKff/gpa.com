@@ -1,7 +1,7 @@
 let sum=0;
 let sumofcredits=21.5; //changable with semester
 let arr2=[];
-let i;
+let i,j;
 let total;
 //event
 let bot=document.getElementById("bot");
@@ -44,7 +44,9 @@ bot.onclick=( )=>{
     arr2.push(t9);     
     console.log(arr2);
     console.log(arr2.length);
-    for (i=0;i<9;i++)  //9 cahnges with semester
+    j=arr2.length
+
+    for (i=0;i<j;i++)  //9 cahnges with semester
     {
         console.log(arr2[i])
         sum+=arr2[i]
@@ -54,7 +56,7 @@ bot.onclick=( )=>{
     let opt=document.getElementById("output");
     opt.innerText=total.toString()
     //last
-    for (i=0;i<9;i++)
+    for (i=0;i<j;i++)
     {
         arr2.pop()
     }
