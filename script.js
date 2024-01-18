@@ -45,7 +45,6 @@ bot.onclick=( )=>{
     console.log(arr2);
     console.log(arr2.length);
     j=arr2.length
-
     for (i=0;i<j;i++)  //9 cahnges with semester
     {
         console.log(arr2[i])
